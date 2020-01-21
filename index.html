@@ -1,58 +1,68 @@
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <title> 2D Matchstick Houses </title>
+  <link rel="shortcut icon" href="./match.ico">
 </head>
+
 <body>
-<br/><br/>
-<center>
-  <img src="./match.png" height="76px" width="307px">
-</center>
-<div class="parent">
-<div class="zebi">
-  <h3> 2D Matchstick Houses Calculator </h3>
-  <br/>
-  <p class="description"> This is a basic script that calculates the number of matches needed to build a number of houses. The picture show the case of 1,2 & 3 houses which need respectively 6,11 & 16 matches to build. </p>
-  <br/>
-  <input id="houses" type="text" placeholder="Houses N°"> </input>
-  <br/><br/>
-  <button type="button"  onclick="calculate();"> 
-  Calculate 
-  </button>
-  <h3> Matches N°: </h3>
-  <p id="result"></p>
-</div>
-</div>
-<footer class="bottom">
-<center> &copy; Zarkti Zakaria </center>
-</footer>
-<style>
-.body{
-overflow-x: hidden;
-}
-.description{
-font-size: 15px;
-}
-#houses{
-width: 100px;
-}
-.bottom{
-margin-top:40px;
-padding:15px;
-background: #3b3b3b;
-color: white;
-}
-.parent{
- padding: 1% 0;
-}
-.zebi{
- padding: 2% 0;
- text-align: center;
- margin: auto;
- width: 50%;
-}
-</style>
-<script src="./main.js"></script>
+  <br /><br />
+  <center>
+    <img src="./match.png" height="76px" width="307px">
+  </center>
+  <div class="parent">
+    <div class="zebi">
+      <h3> 2D Matchstick Houses Calculator </h3>
+      <br />
+      <p class="description"> This is a basic script that calculates the number of matches needed to build a number of
+        houses. The picture show the case of 1,2 & 3 houses which need respectively 6,11 & 16 matches to build. </p>
+      <br />
+      <input id="houses" type="text" placeholder="Houses N°"> </input>
+      <br /><br />
+      <button type="button" onclick="calculate();">
+        Calculate
+      </button>
+      <h3> Matches N°: </h3>
+      <p id="result"></p>
+    </div>
+  </div>
+  <footer class="bottom">
+    <center> &copy; Zarkti Zakaria </center>
+  </footer>
+  <style>
+    .body {
+      overflow-x: hidden;
+    }
+
+    .description {
+      font-size: 15px;
+    }
+
+    #houses {
+      width: 100px;
+    }
+
+    .bottom {
+      margin-top: 40px;
+      padding: 15px;
+      background: white;
+      color: black;
+    }
+
+    .parent {
+      padding: 1% 0;
+    }
+
+    .zebi {
+      padding: 2% 0;
+      text-align: center;
+      margin: auto;
+      width: 50%;
+    }
+  </style>
+  <script src="./main.js"></script>
 
 </body>
+
 </html>
